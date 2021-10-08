@@ -1,0 +1,151 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText":"商城首页"
+			}
+		}
+	    ,
+		{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息"
+            }
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车"
+            }
+        }
+        ,{
+            "path" : "pages/class/class",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品分类"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_list/goods_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods_detail/goods_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情"
+            }
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品搜索"
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录"
+            }
+            
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付"
+            }
+            
+        }
+        ,{
+            "path" : "pages/add_address/add_address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加收货信息"
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货信息列表"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "手机商城",
+		"navigationBarBackgroundColor": "#0AF",
+		"backgroundColor": "#FFF",
+		"onReachBottomDistance":50,
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"list": [
+			{
+				"iconPath":"static/images/index.png",
+				"selectedIconPath":"static/images/index-selected.png",
+				"pagePath":"pages/index/index",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/images/class.png",
+				"selectedIconPath":"static/images/class-selected.png",
+				"pagePath":"pages/class/class",
+				"text":"分类"
+			},
+			{
+				"iconPath":"static/images/cart.png",
+				"selectedIconPath":"static/images/cart-selected.png",
+				"pagePath":"pages/cart/cart",
+				"text":"购物车"
+			},
+			{
+				"iconPath":"static/images/user.png",
+				"selectedIconPath":"static/images/user-selected.png",
+				"pagePath":"pages/user/user",
+				"text":"用户"
+			}
+		],
+		"color": "#fff",
+		"selectedColor":"#000",
+		"backgroundColor":"#00AAFF"
+	}
+}
